@@ -6,13 +6,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    colors: {
+      ...require('tailwindcss/colors'),
+      primary: '#EE6123', //orange
+      secondary: '#FFCF00', //yellow
+      third: '#360568', //purple
+      fourth: '#00916E', //green
+      fifth: '#EAF2EF' //gray
     },
+    extend: {},
   },
   plugins: [],
 }
