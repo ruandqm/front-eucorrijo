@@ -2,6 +2,7 @@ import logo from '../../../assets/logo.svg'
 import Image from "next/image"
 import { LandingHeroEffects } from './LandingHeroEffects'
 import 'animate.css'
+import { DefaultButton } from '@/components/Buttons/DefaultButton'
 
 export const LandingHero = () => {
     return (
@@ -32,6 +33,12 @@ export const LandingHero = () => {
                     font-bold 
                     text-center'>Correções gratuitas e detalhadas de redações modelo Enem</h1>
 
+                <div className="actions flex flex-col md:flex-row m-auto justify-between">
+                    <DefaultButton style='primary text-white' text='Cadastre-se' />
+                    <DefaultButton style='fourth text-white' text='Entrar' />
+                </div>
+
+
             </div>
 
             <span className="
@@ -46,6 +53,7 @@ export const LandingHero = () => {
                     right-0
                     top-0
                     animate__animated animate__bounceInDown"></span>
+
         </section>
     )
 }
