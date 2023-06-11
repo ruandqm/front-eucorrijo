@@ -24,7 +24,7 @@ export const EmailInput = () => {
             placeholder-gray-500 
             pl-10 pr-4 py-2
             rounded-lg 
-            order 
+            border 
             border-gray-400 
             w-full  
             focus:outline-none 
