@@ -1,8 +1,8 @@
 import { Footer } from "@/components/Footer/Footer";
-import { HowWorksSection } from "@/components/LandingPageComponents/HowWorksSection/HowWorksSection";
-import { IsFreeSection } from "@/components/LandingPageComponents/IsFreeSection/IsFreeSection";
-import { LandingHeader } from "@/components/LandingPageComponents/LandingHeader/LandingHeader";
-import { LandingHero } from "@/components/LandingPageComponents/LandingHero/LandingHero";
+import { HowWorksSection } from "@/components/PrivateComponents/LandingPageComponents/HowWorksSection/HowWorksSection";
+import { IsFreeSection } from "@/components/PrivateComponents/LandingPageComponents/IsFreeSection/IsFreeSection";
+import { LandingHeader } from "@/components/PrivateComponents/LandingPageComponents/LandingHeader/LandingHeader";
+import { LandingHero } from "@/components/PrivateComponents/LandingPageComponents/LandingHero/LandingHero";
 
 export default function Home() {
   return (

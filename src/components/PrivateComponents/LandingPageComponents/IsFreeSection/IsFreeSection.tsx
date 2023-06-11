@@ -1,11 +1,10 @@
 import { HeaderText } from '@/components/Text/HeaderText'
 import IsFreeBanner from '../../../assets/LandingAssets/IsFreeBanner.png'
 import Image from 'next/image'
-import Head from 'next/head'
 
 export const IsFreeSection = () => {
     return (
-        <section className="IsFreeSection flex justify-center max-w-6xl m-auto items-center gap-10 flex-col lg:flex-row bg-slate-50 p-5 rounded-xl">
+        <section className="IsFreeSection flex justify-center max-w-6xl mx-auto mb-10 items-center gap-10 flex-col lg:flex-row bg-slate-50 p-5 rounded-xl">
             <Image className='w-2/3 md:w-1/2' src={IsFreeBanner} alt="banner falando que a Eu Corrijo é grátis" />
             <div className="description justify-center text-justify text-lg flex flex-col gap-5">
                 <HeaderText text="Por que gratuito?" />

@@ -34,8 +34,8 @@ export const LandingHero = () => {
                     text-center'>Correções gratuitas e detalhadas de redações modelo Enem</h1>
 
                 <div className="actions flex flex-col md:flex-row m-auto justify-between">
-                    <DefaultButton style='primary text-white' text='Cadastre-se' />
-                    <DefaultButton style='fourth text-white' text='Entrar' />
+                    <DefaultButton type='button' style='primary text-white mx-6 mt-12 w-48' text='Cadastre-se' />
+                    <DefaultButton type='button' style='fourth text-white mx-6 mt-12 w-48' text='Entrar' />
                 </div>
 
 
