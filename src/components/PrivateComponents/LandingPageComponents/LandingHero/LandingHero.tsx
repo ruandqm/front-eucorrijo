@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.svg'
+import logo from '../../../../assets/logo.svg'
 import Image from "next/image"
 import { LandingHeroEffects } from './LandingHeroEffects'
 import 'animate.css'

@@ -1,5 +1,5 @@
 import { HeaderText } from '@/components/Text/HeaderText'
-import IsFreeBanner from '../../../assets/LandingAssets/IsFreeBanner.png'
+import IsFreeBanner from '../../../../assets/LandingAssets/IsFreeBanner.png'
 import Image from 'next/image'
 
 export const IsFreeSection = () => {

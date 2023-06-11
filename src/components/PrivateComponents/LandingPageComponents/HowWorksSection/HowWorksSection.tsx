@@ -1,7 +1,7 @@
 import { HeaderText } from "@/components/Text/HeaderText"
-import FillForm from "../../../assets/LandingAssets/fillForm.svg"
-import AddEssay from "../../../assets/LandingAssets/addEssay.svg"
-import Done from "../../../assets/LandingAssets/done.svg"
+import FillForm from "../../../../assets/LandingAssets/fillForm.svg"
+import AddEssay from "../../../../assets/LandingAssets/addEssay.svg"
+import Done from "../../../../assets/LandingAssets/done.svg"
 import { IllustratedInfoCard } from "@/components/IllustratedInfoCard/IllustratedInfoCard"
 
 export const HowWorksSection = () => {
