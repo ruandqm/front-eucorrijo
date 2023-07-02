@@ -1,4 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors');
+
+delete colors['lightBlue'];
+delete colors['warmGray'];
+delete colors['trueGray'];
+delete colors['coolGray'];
+delete colors['blueGray'];
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
@@ -7,7 +16,7 @@ module.exports = {
   ],
   theme: {
     colors: {
-      ...require('tailwindcss/colors'),
+      ...colors,
       primary: '#EE6123', //orange
       secondary: '#FFCF00', //yellow
       third: '#360568', //purple

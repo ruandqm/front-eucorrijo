@@ -1,4 +1,4 @@
-import Logo from '../../../../../public/favicon.ico'
+import Logo from '../../../../public/favicon.ico'
 import Image from 'next/image'
 
 export const LandingHeader = () => {

@@ -35,7 +35,7 @@ export const LandingHero = () => {
 
                 <div className="actions flex flex-col md:flex-row m-auto justify-between">
                     <DefaultButton type='button' style='primary text-white mx-6 mt-12 w-48' text='Cadastre-se' />
-                    <DefaultButton type='button' style='fourth text-white mx-6 mt-12 w-48' text='Entrar' />
+                    <DefaultButton type='button' style='fourth text-white mx-6 mt-12 w-48' text='Entrar' action='link' link='/login' />
                 </div>
 
 
@@ -48,7 +48,7 @@ export const LandingHero = () => {
                     md:h-60
                     rounded-full 
                     rounded-br-none 
-                  bg-secondary 
+                    bg-secondary 
                     absolute
                     right-0
                     top-0
